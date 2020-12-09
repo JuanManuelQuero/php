@@ -1,0 +1,23 @@
+{
+    "name": "juanm/practica-composer",
+    "description": "Practica Composer",
+    "type": "project",
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "Juanma",
+            "email": "juanma@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src"
+        }
+    },
+    "require": {
+        "mbezhanov/faker-provider-collection": "^1.2"
+    }
+}

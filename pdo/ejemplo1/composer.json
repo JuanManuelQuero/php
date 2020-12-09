@@ -1,0 +1,23 @@
+{
+    "name": "juanm/ejemplo1",
+    "description": "Primer ejemplo PDO",
+    "type": "project",
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "Juan Manuel",
+            "email": "47179022+JuanManuelQuero@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.10"
+    }
+}

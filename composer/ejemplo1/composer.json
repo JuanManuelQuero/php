@@ -1,0 +1,24 @@
+{
+    "name": "juanma/ejemplo1",
+    "description": "Prueba de composer",
+    "type": "project",
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "Juan Manuel",
+            "email": "prueba@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.10",
+        "nesbot/carbon": "^2.41"
+    }
+}
